@@ -1,6 +1,4 @@
 
-/* stylesheet.css */
-
 /* Basic reset */
 body, h1, h2, p, ul, li {
   margin: 0;
@@ -10,8 +8,8 @@ body, h1, h2, p, ul, li {
 
 /* Global styles */
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f4f6f9; /* Light background color for a clean look */
+  font-family: 'Lora', serif;
+  background-color: #fafafa;
   color: #333;
   line-height: 1.6;
   padding: 0;
@@ -27,22 +25,21 @@ body {
 
 /* Header styles */
 header {
-  background-color: #007BFF; /* Blue background */
-  color: #fff;
+  background-color: #004d00; /* Dark green background */
+  color: #f0f0f0;
   padding: 40px 20px;
   text-align: center;
-  border-bottom: 4px solid #0056b3; /* Darker blue border for emphasis */
+  border-bottom: 4px solid #003300; /* Darker green border */
 }
 
 header h1 {
-  font-family: 'Open Sans', sans-serif; /* Professional font for the name */
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 10px;
-  font-size: 36px; /* Larger font size for name */
+  font-size: 36px;
 }
 
 header p {
   font-size: 18px;
-  margin-top: 5px;
 }
 
 /* Main content styles */
@@ -52,7 +49,7 @@ main {
 
 /* Section styles */
 section {
-  background: #fff; /* White background for sections */
+  background: #fff8e1; /* Soft cream background */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
@@ -61,8 +58,8 @@ section {
 
 /* Heading styles */
 h2 {
-  color: #007BFF; /* Blue color for section headings */
-  border-bottom: 2px solid #007BFF;
+  color: #004d00; /* Dark green for headings */
+  border-bottom: 2px solid #004d00;
   padding-bottom: 10px;
   margin-bottom: 20px;
   font-size: 24px;
@@ -75,7 +72,7 @@ h2 {
 }
 
 .interests li {
-  background: #e9ecef;
+  background: #e0f2e9;
   border-radius: 4px;
   margin-bottom: 10px;
   padding: 10px;
@@ -84,22 +81,22 @@ h2 {
 
 /* Contact section */
 .contact a {
-  color: #007BFF;
+  color: #004d00;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s, transform 0.3s;
 }
 
 .contact a:hover {
-  color: #0056b3;
+  color: #003300;
   text-decoration: underline;
   transform: scale(1.05);
 }
 
 /* Footer styles */
 footer {
-  background-color: #007BFF; /* Blue background */
-  color: #fff;
+  background-color: #004d00; /* Dark green background */
+  color: #f0f0f0;
   padding: 20px;
   text-align: center;
 }
