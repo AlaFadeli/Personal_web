@@ -1,0 +1,110 @@
+
+/* stylesheet.css */
+
+/* Basic reset */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f9; /* Light background color for a clean look */
+  color: #333;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+/* Container for centered content */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #007BFF; /* Blue background */
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 4px solid #0056b3; /* Darker blue border for emphasis */
+}
+
+header h1 {
+  font-family: 'Open Sans', sans-serif; /* Professional font for the name */
+  margin-bottom: 10px;
+  font-size: 36px; /* Larger font size for name */
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/* Main content styles */
+main {
+  padding: 40px 0;
+}
+
+/* Section styles */
+section {
+  background: #fff; /* White background for sections */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+/* Heading styles */
+h2 {
+  color: #007BFF; /* Blue color for section headings */
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Interests section */
+.interests ul {
+  list-style: none;
+  padding: 0;
+}
+
+.interests li {
+  background: #e9ecef;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Contact section */
+.contact a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.contact a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+/* Footer styles */
+footer {
+  background-color: #007BFF; /* Blue background */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+
